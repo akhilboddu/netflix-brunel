@@ -15,6 +15,20 @@
     padding: 0;
     margin: 0;
     height: 80vh;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-wrap::after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+
 }
 
 .banner-wrap .navbar .logo img{
