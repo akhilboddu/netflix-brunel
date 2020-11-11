@@ -43,13 +43,22 @@
     text-align: center;
 }
 
+
+
 .banner-container h2 {
     font-size: 1.625rem;
     font-weight: 400;
     text-align: center;
     margin: 16px 155px 16px 155px;
 }
-
+h1 {
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
 .banner-container h3 {
     padding-top: 
     padding-bottom: 20px;
@@ -83,4 +92,26 @@
     background-color: #dd0511;
     border-radius: 3px;
     padding: 7px 17px;
+}
+
+.info-container {
+    display: flex;
+    background: black;
+    align-items: center;
+    padding: 70px 100px;
+    border-top: 8px solid #222;
+}
+
+.tv-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tv-container img {
+    z-index: 1;
+}
+.video {
+    position: absolute;
+    top: 20%;
 }
